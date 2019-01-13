@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Relaxation Trip</title>
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+	 <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	 <link rel="stylesheet" type="text/css" href="css/reset.css">
+	 <link rel="stylesheet" href="css/font-awesome.min.css">
+	 <link href="https://fonts.googleapis.com/css?family=Mitr" rel="stylesheet">
+
+</head>
+
+<body>
+	
+
+		<header>
+			<h2>Automatic Slideshow</h2>
+
+				<div class="slideshow-container">
+				  
+
+					<div class="mySlides fade">
+
+					  <img src="images/100.jpg" style="width:100%">
+					  
+					</div>
+
+					<div class="mySlides fade">
+
+					  <img src="images/103.png" style="width:100%">
+					 					</div>
+
+					<div class="mySlides fade">
+
+					  <img src="images/102.jpg" style="width:100%">
+					 
+					</div>
+
+					
+
+				</div>	
+				<br>
+
+				<div style="text-align:center">
+
+				  <span class="dot"></span>
+
+				  <span class="dot"></span>
+
+				  <span class="dot"></span>
+
+
+				</div>
+
+				
+
+	      	 <div id="logo">
+	           <a href="index.html"><img src="images/logo.png"></a>
+	      	 </div><!-- logo -->
+	      	  <div id="menu-nav">
+      			<nav>
+		      		<a  href="index.html">หน้าแรก </a>      
+		      		<a class="active" href="#">ทริป </a>      
+		      		<a href="#">โปรโมชั่น </a>     
+		      		<a href="#">รีวิว</a>      
+		      		<a href="index2.html">รูปภาพ </a>
+		      		<a href="#">สอบถาม</a>
+		      	</nav>
+      		 </div><!-- menu-nav -->
+
+      <div class="boxlogin">
+      	<div class="boxlogin-in">
+		<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">เข้าสู่ระบบ</button>
+
+		<div id="id01" class="modal">
+			  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+			  <form class="modal-content animate" action="/action_page.php">
+			    <div class="container">
+			      <label><b>Email</b></label>
+			      <input type="text" placeholder="Enter Email" name="email" required>
+
+			      <label><b>Password</b></label>
+			      <input type="password" placeholder="Enter Password" name="psw" required>
+
+			      <label><b>Repeat Password</b></label>
+			      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+			      <input type="checkbox" checked="checked"> จดจำรหัสผ่าน
+
+			      <div class="clearfix">
+			        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">ยกเลิก</button>
+			        <button type="submit" class="signupbtn">ลงชื่อเข้าใช้</button>
+			      </div>
+			    </div>
+			  	</form>
+		</div>
+
+		  </div>
+		</div>
+	      
+      	</header>
+
+
+
+
+
+
+     
+
+
+      		<div id="wrapper">
+
+      				<div class="bigbox10">
+
+
+				      		<div class="Topicsbox">
+
+				      			<div class="Topics1">
+
+				      				<a href="#">ทริป</a>
+
+				      			</div><!-- Topics1 -->
+
+				      			
+
+				      		</div><!-- Topicsbox -->
+				      		<div class="line2">
+				      			</div><!-- line2 -->
+      					
+      					
+
+      					<div class="bigbox10in">
+      						<div class="boxaddtrip">
+      							<div class="boxaddtripin">
+      							<div class="addtrip1">
+
+      								<a href="#">รถโดยสาร</a>
+      								
+      							</div><!-- addtrip1 -->
+
+      							<div class="addtrip2">
+
+      								<a href="#">รถไฟ</a>
+      								
+      							</div><!-- addtrip2 -->
+      							<div class="addtrip3">
+
+      								<a href="#">เครื่องบิน</a>
+      								
+      							</div><!-- addtrip3 -->
+
+      							
+      							
+      						</div><!-- boxaddtripin -->
+
+								<div class="maketrip">
+
+									<div class="boxfontmaketrip">
+
+										<ul class="fontmaketrip">
+											<li><a href="#">เดินทางจาก </a></li>
+											<li><a href="#">เดินทางถึง</a></li>
+											<li><a href="#">วันที่เดินทางไป : </a></li>
+											<li><a href="#">  วันที่เดินทางกลับ : </a></li>
+											<li><a href="#">ผู้ใหญ่ :</a></li>
+											<li><a href="#"> เด็ก :</a></li>
+										</ul>
+										
+									</div>
+
+								<div class="select_type">
+										     <select id="select_type" name="select_type">
+										      <option value="" disabled selected>จังหวัด</option>
+										           <option value="QA">กรุงเทพมหานคร </option>
+										           <option value="find_friend"> กระบี่ </option>
+										          <option value="review_board">กาญจนบุรี </option>
+										          <option value="review_board1">กาฬสินธุ์  </option>
+
+										          <option value="review_board2">กำแพงเพชร </option> 
+ <option value="review_board3">ขอนแก่น    </option>   
+ <option value="review_board4">ชลบุรี   </option>         
+ <option value="review_board5">จันทบุรี     </option>   
+  <option value="review_board6">ฉะเชิงเทรา    </option>  
+  <option value="review_board7">ชลบุรี    </option>       
+  <option value="review_board8">  ชัยนาท   </option>                                                               
+ <option value="review_board9"> ชัยภูมิ    </option>                 
+  <option value="review_board10"> เชียงราย   </option>
+  <option value="review_board11"> เชียงใหม่    </option>
+  <option value="review_board12"> ตรัง    </option>
+<option value="review_board13"> ตราด    </option>
+<option value="review_board14"> ตาก     </option>
+<option value="review_board15"> นครนายก    </option>
+<option value="review_board16"> นครปฐม     </option>
+<option value="review_board17">  นครพนม     </option>
+<option value="review_board18"> นครราชสีมา    </option>
+<option value="review_board19"> นครศรีธรรมราช    </option>
+<option value="review_board20"> นครสวรรค์    </option>
+<option value="review_board21"> นนทบุรี     </option>
+<option value="review_board22">  นราธิวาส      </option>
+<option value="review_board23">  น่าน      </option>
+<option value="review_board24">  บึงกาฬ      </option>
+<option value="review_board25"> บุรีรัมย์</option>
+<option value="review_board26"> ปทุมธานี      </option>
+<option value="review_board27"> ประจวบคีรีขันธ์      </option>
+<option value="review_board28"> ปราจีนบุรี     </option>
+<option value="review_board29">  ปัตตานี     </option>
+<option value="review_board30"> พระนครศรีอยุธยา      </option>
+<option value="review_board31"> พังงา </option>
+<option value="review_board32">  พัทลุง      </option>
+<option value="review_board33"> พิจิตร      </option>
+<option value="review_board34">  พิษณุโลก      </option>
+<option value="review_board35"> เพชรบุรี     </option>
+<option value="review_board36"> เพชรบูรณ์      </option>
+<option value="review_board37"> แพร่      </option>
+<option value="review_board38"> พะเยา     </option>
+<option value="review_board39">  ภูเก็ต      </option>
+<option value="review_board40"> มหาสารคาม      </option>
+<option value="review_board41"> มุกดาหาร      </option>
+<option value="review_board42"> แม่ฮ่องสอน      </option>
+<option value="review_board43">  ยะลา      </option>
+<option value="review_board44"> ยโสธร      </option>
+<option value="review_board45"> ร้อยเอ็ด      </option>
+<option value="review_board46"> ระนอง      </option>
+<option value="review_board47"> ระยอง      </option>
+<option value="review_board48"> ราชบุรี </option>
+<option value="review_board49"> ลพบุรี      </option>
+<option value="review_board50"> ลำปาง     </option>
+<option value="review_board51">  ลำพูน      </option>
+<option value="review_board52">  เลย      </option>
+<option value="review_board53">  ศรีสะเกษ       </option>
+<option value="review_board54">  สกลนคร       </option>
+<option value="review_board55">   สงขลา       </option>
+<option value="review_board56">  สตูล </option>
+<option value="review_board57">  สมุทรปราการ       </option>
+<option value="review_board58">  สมุทรสงคราม      </option>
+<option value="review_board59">  สมุทรสาคร      </option>
+<option value="review_board60">  สระแก้ว       </option>
+<option value="review_board61">  สระบุรี        </option>
+<option value="review_board62">  สิงห์บุรี       </option>
+<option value="review_board63">   สุโขทัย      </option>
+<option value="review_board64">  สุพรรณบุรี        </option>
+<option value="review_board65">  สุราษฎร์ธานี       </option>
+<option value="review_board66">  สุรินทร์        </option>
+<option value="review_board67">  หนองคาย        </option>
+<option value="review_board68">  หนองบัวลำภู       </option>
+<option value="review_board69">  อ่างทอง       </option>
+<option value="review_board70">   อุดรธานี       </option>
+<option value="review_board71">    อุทัยธานี      </option>
+<option value="review_board72">   อุตรดิตถ์ </option>
+<option value="review_board73">    อุบลราชธานี       </option>
+<option value="review_board74">   อำนาจเจริญ       </option>
+										        </select>
+										    </div> <!--select_type-->
+
+
+
+
+										    <div class="select_type">
+										     <select id="select_type" name="select_type">
+										      <option value="" disabled selected>จังหวัด</option>
+										           <option value="QA">กรุงเทพมหานคร </option>
+										           <option value="find_friend"> กระบี่ </option>
+										          <option value="review_board">กาญจนบุรี </option>
+										          <option value="review_board1">กาฬสินธุ์  </option>
+
+										          <option value="review_board2">กำแพงเพชร </option> 
+ <option value="review_board3">ขอนแก่น    </option>   
+ <option value="review_board4">ชลบุรี   </option>         
+ <option value="review_board5">จันทบุรี     </option>   
+  <option value="review_board6">ฉะเชิงเทรา    </option>  
+  <option value="review_board7">ชลบุรี    </option>       
+  <option value="review_board8">  ชัยนาท   </option>                                                               
+ <option value="review_board9"> ชัยภูมิ    </option>                 
+  <option value="review_board10"> เชียงราย   </option>
+  <option value="review_board11"> เชียงใหม่    </option>
+  <option value="review_board12"> ตรัง    </option>
+<option value="review_board13"> ตราด    </option>
+<option value="review_board14"> ตาก     </option>
+<option value="review_board15"> นครนายก    </option>
+<option value="review_board16"> นครปฐม     </option>
+<option value="review_board17">  นครพนม     </option>
+<option value="review_board18"> นครราชสีมา    </option>
+<option value="review_board19"> นครศรีธรรมราช    </option>
+<option value="review_board20"> นครสวรรค์    </option>
+<option value="review_board21"> นนทบุรี     </option>
+<option value="review_board22">  นราธิวาส      </option>
+<option value="review_board23">  น่าน      </option>
+<option value="review_board24">  บึงกาฬ      </option>
+<option value="review_board25"> บุรีรัมย์</option>
+<option value="review_board26"> ปทุมธานี      </option>
+<option value="review_board27"> ประจวบคีรีขันธ์      </option>
+<option value="review_board28"> ปราจีนบุรี     </option>
+<option value="review_board29">  ปัตตานี     </option>
+<option value="review_board30"> พระนครศรีอยุธยา      </option>
+<option value="review_board31"> พังงา </option>
+<option value="review_board32">  พัทลุง      </option>
+<option value="review_board33"> พิจิตร      </option>
+<option value="review_board34">  พิษณุโลก      </option>
+<option value="review_board35"> เพชรบุรี     </option>
+<option value="review_board36"> เพชรบูรณ์      </option>
+<option value="review_board37"> แพร่      </option>
+<option value="review_board38"> พะเยา     </option>
+<option value="review_board39">  ภูเก็ต      </option>
+<option value="review_board40"> มหาสารคาม      </option>
+<option value="review_board41"> มุกดาหาร      </option>
+<option value="review_board42"> แม่ฮ่องสอน      </option>
+<option value="review_board43">  ยะลา      </option>
+<option value="review_board44"> ยโสธร      </option>
+<option value="review_board45"> ร้อยเอ็ด      </option>
+<option value="review_board46"> ระนอง      </option>
+<option value="review_board47"> ระยอง      </option>
+<option value="review_board48"> ราชบุรี </option>
+<option value="review_board49"> ลพบุรี      </option>
+<option value="review_board50"> ลำปาง     </option>
+<option value="review_board51">  ลำพูน      </option>
+<option value="review_board52">  เลย      </option>
+<option value="review_board53">  ศรีสะเกษ       </option>
+<option value="review_board54">  สกลนคร       </option>
+<option value="review_board55">   สงขลา       </option>
+<option value="review_board56">  สตูล </option>
+<option value="review_board57">  สมุทรปราการ       </option>
+<option value="review_board58">  สมุทรสงคราม      </option>
+<option value="review_board59">  สมุทรสาคร      </option>
+<option value="review_board60">  สระแก้ว       </option>
+<option value="review_board61">  สระบุรี        </option>
+<option value="review_board62">  สิงห์บุรี       </option>
+<option value="review_board63">   สุโขทัย      </option>
+<option value="review_board64">  สุพรรณบุรี        </option>
+<option value="review_board65">  สุราษฎร์ธานี       </option>
+<option value="review_board66">  สุรินทร์        </option>
+<option value="review_board67">  หนองคาย        </option>
+<option value="review_board68">  หนองบัวลำภู       </option>
+<option value="review_board69">  อ่างทอง       </option>
+<option value="review_board70">   อุดรธานี       </option>
+<option value="review_board71">    อุทัยธานี      </option>
+<option value="review_board72">   อุตรดิตถ์ </option>
+<option value="review_board73">    อุบลราชธานี       </option>
+<option value="review_board74">   อำนาจเจริญ       </option>
+										        </select>
+										    </div> <!--select_type-->
+
+
+						<div class="search10">
+
+      				<div class="searchbox10">
+      					<input type="text1" placeholder="วัน เดือน ปี" name="search" required>
+
+      				</div><!-- search -->
+      				
+
+      			</div><!-- search1 -->
+
+
+      			<div class="search11">
+
+      				<div class="searchbox11">
+      					<input type="text1" placeholder="วัน เดือน ปี" name="search" required>
+
+      				</div><!-- search -->
+      				
+
+      			</div><!-- search1 -->
+
+      			<div class="select_type11">
+										     <select id="select_type11" name="select_type11">
+										      <option value="" disabled selected>1</option>
+										           <option value="review_board100">1</option>
+										           <option value="review_board101">2</option>
+										          <option value="review_board102">3</option>
+										           <option value="review_board100">4</option>
+										           <option value="review_board101">5</option>
+										          <option value="review_board102">6</option>
+										           <option value="review_board100">7</option>
+										           <option value="review_board101">8</option>
+										          <option value="review_board102">9</option>
+										           <option value="review_board102">10</option>
+										            </select>
+										    </div> <!--select_type-->
+
+										          
+
+										          <div class="select_type11">
+										     <select id="select_type11" name="select_type11">
+										      <option value="" disabled selected>1</option>
+										           <option value="review_board100">1</option>
+										           <option value="review_board101">2</option>
+										          <option value="review_board102">3</option>
+										           <option value="review_board100">4</option>
+										           <option value="review_board101">5</option>
+										          <option value="review_board102">6</option>
+										           <option value="review_board100">7</option>
+										           <option value="review_board101">8</option>
+										          <option value="review_board102">9</option>
+										           <option value="review_board102">10</option>
+										            </select>
+										    </div> <!--select_type-->
+
+
+
+								      								
+								</div><!-- maketrip -->
+								<div class="boxbossha">
+									<a href="#">ค้นหา</a>
+
+
+
+									
+								</div><!-- boxbossha -->
+      					</div>	<!-- boxaddtrip -->
+      					<div class="Travelitem">
+      							<a href="#">รายการการเดินทาง</a>
+
+      						
+      					</div>	<!-- travelitem" -->
+      					<div class="Travelitembox">
+      							<a href="#">ที่พัก : กรวรรณ การ์เด้น วิว		เข้าวันที่ 14 ตุลาคม 2560 - 16 ตุลาคม 2560   จำวนห้อง 1 ห้อง	 จำนวน 2 ท่าน</a>
+
+      						
+      					</div>	<!-- travelitem" -->
+
+      					<div class="Travelitembox">
+      							
+      					</div>	<!-- travelitem" -->
+      					<div class="Travelitembox">
+      							
+      						
+      					</div>	<!-- travelitem" -->
+      					<div class="Travelitembox">
+      							
+      						
+      					</div>	<!-- travelitem" -->
+      					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      						
+      					</div><!-- bigbox10in -->
+
+
+      					
+      				</div><!-- bigbox10 -->
+      			
+      		</div><!-- wrappe -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="bigbox5">
+
+		<div class="bigbox5in">
+
+			<div class="boxfont">
+
+				<div class="fontlasth">
+						<a href="#">ข่าวและโปรโมชั่น</a>
+				</div><!-- fontlasth -->
+
+				<div class="fontlast">
+						<a href="#">ตั๋วเครื่องบิน<br><br></a>
+						<a href="#">โรงแรม<br><br></a>
+						<a href="#">ร้านอาหาร<br><br></a>
+						<a href="#">Return<br><br></a>
+						<a href="#">แพคเกจทัวร์<br><br></a>
+						<a href="#">อื่นๆ<br><br></a>
+						
+								
+							
+					</div><!-- fontlast -->
+				
+
+
+			</div><!-- boxfont -->
+
+
+
+			<div class="boxfont">
+
+				<div class="fontlasth">
+						<a href="#">รีวิว</a>
+				</div><!-- fontlasth -->
+
+				<div class="fontlast">
+						<a href="#">ที่เที่ยวหัวหิน<br><br></a>
+						<a href="#">ที่เที่ยวพัทยา<br><br></a>
+						<a href="#">ที่เที่ยวเขาใหญ่<br><br></a>
+						<a href="#">ที่เที่ยวปราณบุรี<br><br></a>
+						<a href="#">ที่เที่ยวเกาะเสม็ด<br><br></a>
+						<a href="#">ที่เที่ยวภูเก็ต<br><br></a>
+						
+								
+							
+					</div><!-- fontlast -->
+				
+
+
+			</div><!-- boxfont -->
+
+
+
+			<div class="boxfont">
+
+				<div class="fontlasth">
+						<a href="#">ติดตามพวกเราได้ที่</a>
+				</div><!-- fontlasth -->
+
+				<div class="fontlast">
+						
+						<div class="imagesfont">
+							<div class="imagesfacebook">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<a href="#">Facebook</a>
+							</div>
+					
+						</div>
+						<div class="imagesfont1">
+							<div class="imagesinstagram">
+								<i class="fa fa-instagram" aria-hidden="true">
+									<a href="#">Instagram</a>
+								</i>
+							
+							</div>
+						</div>
+						<div class="imagesfont2">
+							<div class="imagesyoutube">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+									<a href="#">Youtube</a>
+								</i>
+							
+							</div>
+						</div>
+						
+						<div class="imagesfont4">
+							<div class="imagestwitter">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+									<a href="#">Twitter</a>
+								</i>
+							
+							</div>
+						</div>
+						
+								
+							
+					</div><!-- fontlast -->
+				
+
+
+			</div><!-- boxfont -->
+		</div><!-- bigbox5in -->
+		<div class="boxcat">
+			<div class="copyright">
+				<i class="fa fa-copyright" aria-hidden="true"></i>
+				
+			</div>
+			<div class="cat">
+				<a href="#">สงวนลิขสิทธิ์ตามกฎหมาย ห้ามนำไปทำซำ้ หรือคัดลอกข้อมูลโดยไม่ได้รับอนุญาต </a>
+
+
+			</div><!-- cat -->
+			
+		</div><!-- boxcat -->
+
+
+		<div class="boxlogo2">
+			<a href="index.html"><img src="images/logo2.png"></a>
+			
+		</div><!-- boxlogo2 -->
+      		
+      	</div><!-- bigbox5 -->
+
+
+
+				<script>
+					var slideIndex = 0;
+					showSlides();
+
+					function showSlides() {
+					    var i;
+					    var slides = document.getElementsByClassName("mySlides");
+					    var dots = document.getElementsByClassName("dot");
+					    for (i = 0; i < slides.length; i++) {
+					       slides[i].style.display = "none";
+					    }
+					    slideIndex++;
+					    if (slideIndex > slides.length) {slideIndex = 1}
+					    for (i = 0; i < dots.length; i++) {
+					        dots[i].className = dots[i].className.replace(" active", "");
+					    }
+					    slides[slideIndex-1].style.display = "block";
+					    dots[slideIndex-1].className += " active";
+					    setTimeout(showSlides, 5000); // Change image every 2 seconds
+					}
+				</script>
+
+
+</body>
+</html>

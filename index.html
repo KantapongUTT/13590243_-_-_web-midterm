@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Relaxation Trip</title>
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+	 <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	 <link rel="stylesheet" type="text/css" href="css/reset.css">
+	 <link rel="stylesheet" href="css/font-awesome.min.css">
+	 <link href="https://fonts.googleapis.com/css?family=Mitr" rel="stylesheet">
+
+</head>
+
+<body>
+	
+
+		<header>
+			<h2>Automatic Slideshow</h2>
+
+				<div class="slideshow-container">
+				  
+
+					<div class="mySlides fade">
+
+					  <img src="images/100.jpg" style="width:100%">
+					  
+					</div>
+
+					<div class="mySlides fade">
+
+					  <img src="images/103.png" style="width:100%">
+					 					</div>
+
+					<div class="mySlides fade">
+
+					  <img src="images/102.jpg" style="width:100%">
+					 
+					</div>
+
+					
+
+				</div>	
+				<br>
+
+				<div style="text-align:center">
+
+				  <span class="dot"></span>
+
+				  <span class="dot"></span>
+
+				  <span class="dot"></span>
+
+
+				</div>
+
+				
+
+	      	 <div id="logo">
+	           <a href="index.html"><img src="images/logo.png"></a>
+	      	 </div><!-- logo -->
+	      	  <div id="menu-nav">
+      			<nav>
+		      		<a class="active" href="#">หน้าแรก </a>      
+		      		<a href="index3.html">ทริป </a>      
+		      		<a href="#">โปรโมชั่น </a>     
+		      		<a href="#">รีวิว</a>      
+		      		<a href="index2.html">รูปภาพ </a>
+		      		<a href="#">สอบถาม</a>
+		      	</nav>
+      		 </div><!-- menu-nav -->
+
+      <div class="boxlogin">
+      	<div class="boxlogin-in">
+		<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">เข้าสู่ระบบ</button>
+
+		<div id="id01" class="modal">
+			  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+			  <form class="modal-content animate" action="/action_page.php">
+			    <div class="container">
+			      <label><b>Email</b></label>
+			      <input type="text" placeholder="Enter Email" name="email" required>
+
+			      <label><b>Password</b></label>
+			      <input type="password" placeholder="Enter Password" name="psw" required>
+
+			      <label><b>Repeat Password</b></label>
+			      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+			      <input type="checkbox" checked="checked"> จดจำรหัสผ่าน
+
+			      <div class="clearfix">
+			        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">ยกเลิก</button>
+			        <button type="submit" class="signupbtn">ลงชื่อเข้าใช้</button>
+			      </div>
+			    </div>
+			  	</form>
+		</div>
+
+		  </div>
+		</div>
+	      
+      	</header>
+      <div id="wrapper">
+
+      	<div class="bigbox">
+
+      		<div class="Topicsbox">
+
+      			<div class="Topics1">
+
+      				<a href="#">เที่ยวไหนดี</a>
+
+      			</div><!-- Topics1 -->
+
+      			<div class="search1">
+
+      				<div class="searchbox">
+      					<input type="text" placeholder="search" name="search" required>
+
+      				</div><!-- search -->
+      				<div class="searchn">
+      					<div class="searchnow">
+      						<a href="#">ค้นหา</a>
+      						
+      					</div><!-- earchnow -->
+      					
+      				</div><!-- searchn -->
+
+      			</div><!-- search1 -->
+
+      		</div><!-- Topicsbox -->
+      		<div class="line">
+      			
+      		</div><!-- line -->
+
+      		<div class="boxtip">
+      			<ul class="images1">
+      				<li>
+						<img src="images/2.jpg">
+							<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<h1>น้ำตก</h1>
+							<div class="cicktip">
+								<a href="#">จัดทริป</a>
+							</div><!-- cicktip -->
+								
+							</div><!-- caption-text -->
+					</li>
+
+					<li>
+						<img src="images/3.jpg">
+							<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<h1>ภูเขา</h1>
+							<div class="cicktip">
+								<a href="#">จัดทริป</a>
+							</div><!-- cicktip -->
+								
+							</div><!-- caption-text -->
+					</li>
+
+					<li>
+						<img src="images/4.jpg">
+							<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<h1>ทะเล</h1>
+							<div class="cicktip">
+								<a href="#">จัดทริป</a>
+							</div><!-- cicktip -->
+								
+							</div><!-- caption-text -->
+					</li>
+		      	</ul><!-- images1	 -->	
+      			
+      			
+      		</div><!-- boxtip -->
+
+      		
+      	</div><!-- bigbox -->
+
+      	<div class="bigbox2">
+
+      		<div class="Topicsbox">
+
+      			<div class="Topics1">
+
+      				<a href="#">โปรโมชั่น</a>
+
+      			</div><!-- Topics1 -->
+
+      			<div class="search1">
+
+      				<div class="searchbox">
+      					<input type="text" placeholder="search" name="search" required>
+
+      				</div><!-- search -->
+      				<div class="searchn">
+      					<div class="searchnow2">
+      						<a href="#">ค้นหา</a>
+      						
+      					</div><!-- earchnow2 -->
+      					
+      				</div><!-- searchn -->
+
+      			</div><!-- search1 -->
+
+      		</div><!-- Topicsbox -->
+      		<div class="line2">
+      			</div><!-- line2 -->
+
+      		<div class="boxpromotion">
+
+      			<div class="promotion1">
+
+      				<div class="images100">
+
+      					<img src="images/5.jpg">
+      					<div class="texta">
+      						<ul>
+      							<li><a href="#">บัตรโดยสารนกแอร์ราคา <br>
+									พิเศษเริ่มต้นที่ 750 บาท</a></li>
+							</ul>
+						</div>
+      					
+      				</div><!-- images100 -->
+
+      				<div class="images101">
+
+      					<img src="images/7.jpg">
+      					<div class="texta1">
+      						<ul>
+      							<li><a href="#">พิเศษเฉพาะชาวไทย เท่าน้ัน <br>
+									ห้องพักราคา 1600 บาท </a></li>
+							</ul>
+						</div>
+      					
+      				</div><!-- images101 -->
+      				
+
+      				<div class="images101">
+
+      					<img src="images/8.jpg">
+      					<div class="texta1">
+      						<ul>
+      							<li><a href="#">สายน้ำตกรีสอร์ท เขาค้อ<br>
+									จัดโปรโมชั่นรับปลายฝน<br>
+									ต้นหนาว </a></li>
+							</ul>
+						</div>
+      					
+      				</div><!-- images101 -->
+
+      				<div class="images101">
+
+      					<img src="images/6.jpg">
+      					<div class="texta1">
+      						<ul>
+      							<li><a href="#">เตรียมพร้อมรับลมหนาวกับ <br>
+									เทรเวลลอดจ์ พัทยา ด้วย </a></li>
+							</ul>
+						</div>
+      					
+      				</div><!-- images101 -->
+      			</div><!-- promotion1 -->
+
+      			<div class="promotion2">
+
+      				<div class="images100">
+
+      					<img src="images/9.jpg">
+      					<div class="texta">
+      						<ul>
+      							<li><a href="#">10 ปี 10 ไฮไลท์เด่นบุฟเฟ่ต์<br>
+									ซีฟู้ดและบาร์บีคิว ณ ห้อง<br>
+									อาหารควิซีน อัน</a></li>
+							</ul>
+						</div>
+      					
+      				</div><!-- images100 -->
+
+      				<div class="images101">
+
+      					<img src="images/12.jpg">
+      					<div class="texta1">
+      						<ul>
+      							<li><a href="#">บัตรโดยสารราคาพิเศษ<br>
+									สู่กรุงเทพฯ เริ่มต้นเพียง<br>
+									750 บาท</a></li>
+							</ul>
+						</div>
+      					
+      				</div><!-- images101 -->
+      				
+
+      				<div class="images101">
+
+      					<img src="images/11.jpg">
+      					<div class="texta1">
+      						<ul>
+      							<li><a href="#">สุวรรณภูมิ-เชียงใหม่ <br>
+									ราคารวมเริ่มต้น 509 บาท</a></li>
+							</ul>
+						</div>
+      					
+      				</div><!-- images101 -->
+
+      				<div class="images101">
+
+      					<img src="images/10.jpg">
+      					<div class="texta1">
+      						<ul>
+      							<li><a href="#">PeachHillHotelAnd  <br>
+									Resortมอบแพคเกจพิเศษ<br>
+									สำหรับสมาชิก</a></li>
+							</ul>
+						</div>
+      					
+      				</div><!-- images101 -->
+      				
+
+      			</div><!-- promotion2 -->
+      				<div class="boxadd">
+      					<div class="add">
+      						<a href="#">เพิ่มเติม</a>
+      					</div>
+      				</div><!-- boxadd -->
+      		</div><!-- boxpromotion	 -->
+      		
+      	</div><!-- bigbox2 -->
+      	<div class="bigbox3">
+
+      			<div class="Topicsbox">
+
+      			<div class="Topics2">
+
+      				<a href="#">รีวิว</a>
+
+      			</div><!-- Topics1 -->
+
+      			<div class="search1">
+
+      				<div class="searchbox">
+      					<input type="text" placeholder="search" name="search" required>
+
+      				</div><!-- search -->
+      				<div class="searchn1">
+      					<div class="searchnow3">
+      						<a href="#">ค้นหา</a>
+      						
+      					</div><!-- earchnow3 -->
+      					
+      				</div><!-- searchn -->
+
+      			</div><!-- search1 -->
+
+      		</div><!-- Topicsbox -->
+      		<div class="line3">
+      			</div><!-- line3 -->
+
+      		<div class="Reviewsbox">
+      			
+      			<div class="Reviewsboxin">
+      				<div class="youtube">
+      					<iframe width="596" height="380" src="https://www.youtube.com/embed/C-0GznZkhfQ"></iframe>
+      					
+      				</div><!-- youtube -->
+      				
+      					<ul class="Reviews1">
+		      				<li>
+								<img src="images/13.jpg">
+									<div class="caption">
+									<div class="blur"></div>
+									<div class="caption-text1">
+										<a href="#">อ่านต่อ</a>
+
+										
+									</div><!-- caption-text -->
+							</li>
+						</ul><!-- Reviews1	 -->
+      				
+      				
+      			</div><!-- Reviewsboxin -->
+      			<div class="Reviewsboxin2">
+
+      					<ul class="Reviews2">
+		      				<li>
+								<img src="images/14.jpg">
+									<div class="caption">
+									<div class="blur"></div>
+									<div class="caption-text1">
+										<a href="#">อ่านต่อ</a>
+
+										
+									</div><!-- caption-text -->
+							</li>
+						</ul><!-- Reviews2	 -->
+						<ul class="Reviews3">
+		      				<li>
+								<img src="images/15.jpg">
+									<div class="caption">
+									<div class="blur"></div>
+									<div class="caption-text1">
+										<a href="#">อ่านต่อ</a>
+
+										
+									</div><!-- caption-text -->
+							</li>
+
+
+
+						</ul><!-- Reviews3	 -->
+						<ul class="Reviews3">
+		      				<li>
+								<img src="images/16.jpg">
+									<div class="caption">
+									<div class="blur"></div>
+									<div class="caption-text1">
+										<a href="#">อ่านต่อ</a>
+
+										
+									</div><!-- caption-text -->
+							</li>
+
+
+							
+						</ul><!-- Reviews3	 -->
+
+      			</div><!-- Reviewsboxin2 -->
+      		</div><!-- Reviewsbox-->
+      		
+      	</div><!-- bigbox3 -->
+
+      	<div class="bigbox4">
+
+      		<div class="bigbox4in">
+      				
+
+
+
+				  <div id="form-div">
+				    <form class="form" id="form1">
+				      
+				      <p class="name1">
+				        <input name="name1" type="text1" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name1" />
+				      </p>
+				      
+				      <p class="email1">
+				        <input name="email1" type="text1" class="validate[required,custom[email]] feedback-input" id="email1" placeholder="Email" />
+				      </p>
+				      
+				      <p class="text1">
+				        <textarea name="text1" class="validate[required,length[6,300]] feedback-input" id="comment1" placeholder="Comment"></textarea>
+				      </p>
+				      
+				      
+				      <div class="submit1">
+				        <input type="submit1" value="SEND" id="button-blue1"/>
+				        <div class="ease1"></div>
+				      </div>
+				    </form>
+				  </div>
+
+
+      		</div><!-- bigbox4in -->
+      		
+      	</div><!-- bigbox4 -->
+
+     
+	</div><!-- wrapper -->
+
+
+
+	<div class="bigbox5">
+
+		<div class="bigbox5in">
+
+			<div class="boxfont">
+
+				<div class="fontlasth">
+						<a href="#">ข่าวและโปรโมชั่น</a>
+				</div><!-- fontlasth -->
+
+				<div class="fontlast">
+						<a href="#">ตั๋วเครื่องบิน<br><br></a>
+						<a href="#">โรงแรม<br><br></a>
+						<a href="#">ร้านอาหาร<br><br></a>
+						<a href="#">Return<br><br></a>
+						<a href="#">แพคเกจทัวร์<br><br></a>
+						<a href="#">อื่นๆ<br><br></a>
+						
+								
+							
+					</div><!-- fontlast -->
+				
+
+
+			</div><!-- boxfont -->
+
+
+
+			<div class="boxfont">
+
+				<div class="fontlasth">
+						<a href="#">รีวิว</a>
+				</div><!-- fontlasth -->
+
+				<div class="fontlast">
+						<a href="#">ที่เที่ยวหัวหิน<br><br></a>
+						<a href="#">ที่เที่ยวพัทยา<br><br></a>
+						<a href="#">ที่เที่ยวเขาใหญ่<br><br></a>
+						<a href="#">ที่เที่ยวปราณบุรี<br><br></a>
+						<a href="#">ที่เที่ยวเกาะเสม็ด<br><br></a>
+						<a href="#">ที่เที่ยวภูเก็ต<br><br></a>
+						
+								
+							
+					</div><!-- fontlast -->
+				
+
+
+			</div><!-- boxfont -->
+
+
+
+			<div class="boxfont">
+
+				<div class="fontlasth">
+						<a href="#">ติดตามพวกเราได้ที่</a>
+				</div><!-- fontlasth -->
+
+				<div class="fontlast">
+						
+						<div class="imagesfont">
+							<div class="imagesfacebook">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<a href="#">Facebook</a>
+							</div>
+					
+						</div>
+						<div class="imagesfont1">
+							<div class="imagesinstagram">
+								<i class="fa fa-instagram" aria-hidden="true">
+									<a href="#">Instagram</a>
+								</i>
+							
+							</div>
+						</div>
+						<div class="imagesfont2">
+							<div class="imagesyoutube">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+									<a href="#">Youtube</a>
+								</i>
+							
+							</div>
+						</div>
+						
+						<div class="imagesfont4">
+							<div class="imagestwitter">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+									<a href="#">Twitter</a>
+								</i>
+							
+							</div>
+						</div>
+						
+								
+							
+					</div><!-- fontlast -->
+				
+
+
+			</div><!-- boxfont -->
+		</div><!-- bigbox5in -->
+		<div class="boxcat">
+			<div class="copyright">
+				<i class="fa fa-copyright" aria-hidden="true"></i>
+				
+			</div>
+			<div class="cat">
+				<a href="#">สงวนลิขสิทธิ์ตามกฎหมาย ห้ามนำไปทำซำ้ หรือคัดลอกข้อมูลโดยไม่ได้รับอนุญาต </a>
+
+
+			</div><!-- cat -->
+			
+		</div><!-- boxcat -->
+
+
+		<div class="boxlogo2">
+			<a href="index.html"><img src="images/logo2.png"></a>
+			
+		</div><!-- boxlogo2 -->
+      		
+      	</div><!-- bigbox5 -->
+
+
+
+				<script>
+					var slideIndex = 0;
+					showSlides();
+
+					function showSlides() {
+					    var i;
+					    var slides = document.getElementsByClassName("mySlides");
+					    var dots = document.getElementsByClassName("dot");
+					    for (i = 0; i < slides.length; i++) {
+					       slides[i].style.display = "none";
+					    }
+					    slideIndex++;
+					    if (slideIndex > slides.length) {slideIndex = 1}
+					    for (i = 0; i < dots.length; i++) {
+					        dots[i].className = dots[i].className.replace(" active", "");
+					    }
+					    slides[slideIndex-1].style.display = "block";
+					    dots[slideIndex-1].className += " active";
+					    setTimeout(showSlides, 5000); // Change image every 2 seconds
+					}
+				</script>
+
+
+</body>
+</html>

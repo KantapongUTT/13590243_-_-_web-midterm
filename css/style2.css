@@ -1,0 +1,478 @@
+@charset "utf-8";
+/*Reset CSS*/
+body{
+	background-color: #fff;
+}
+/*PAGE*/
+#wrapper{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+}
+header{
+	width: 100%;
+	height: 595px;
+	background-color: #000;
+}
+.mySlides {display:none}
+
+
+/* Slideshow container */
+.slideshow-container img{
+  width: 100%;
+  height: 650px;
+  position: relative;
+  margin-top: -70px;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+#logo{
+	width: 100px;
+	height: 70px;
+	float: left;
+	margin-top: -600px;
+	position: absolute;
+
+}
+#logo a{
+	margin-left:100px;
+
+}
+#menu-nav{
+	width:700px;
+	height: 40px;
+	margin-left: 400px;
+	margin-top: -560px;
+	position: absolute;
+}
+nav{
+	width: 700px;
+	height: 30px;
+	text-align: center;
+	font-family: 'Mitr', sans-serif;
+	font-size: 18px;
+	margin-left: 30px;
+}
+nav a{
+	color: #313131;
+	font-size: 18px;
+	margin-right: 40px;
+	font-family: 'Mitr', sans-serif;
+	text-decoration: none;
+
+
+}
+nav a:hover{
+	color: white;
+}
+nav a:active{
+	color: white;
+}
+nav a:link, nav a:hover, nav a:active, nav a:visited{
+	text-decoration: none;
+}
+.active{color: #fff;}
+
+.boxlogin{
+	
+	margin-left: 1100px;
+	margin-top: -615px;
+	position: absolute;
+
+}
+.boxlogin-in{
+	text-align: center;
+	font-family: 'Mitr', sans-serif;
+	font-size: 18px;
+	
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+	width: 140px;
+	height: 40px;
+    background-color: #fff;
+    color: #313131;
+    padding: 5px 20px;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    font-family: 'Mitr', sans-serif;
+    font-size: 16px;
+    
+    /*margin-left: 800px;*/
+    /*margin-top: 30px;*/
+
+}
+button:hover {
+	color: #3aa3a0;
+}
+
+input [type="checkbox"],[checked="checked"]{
+  width: 2%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 5px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {float:left;width:50%}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+.container label{
+	
+	float: left;
+	margin-left: 5px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 50%; /* Full width */
+    height: 52%; /* Full height */
+    /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0); /* Black w/ opacity */
+    /*padding-top: 230px;*/
+    margin-left: 340px;
+    padding-left: 0px;
+    margin-top: 120px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fff;
+    margin: 1% 6% 2% 20%; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+    /*padding-right: 50px;*/
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 150px;
+    top: 5px;
+    color: #313131;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bigbox5{
+	width: 100%;
+	height: 350px;
+	background-color: #3daca8;
+}
+.bigbox5in{
+	margin-left: 224px;
+	width: 900px;
+	height:310px;
+
+	position: absolute;
+
+}
+.boxfont{
+	width: 300px;
+	height: 310px;
+
+	float: left;
+}
+.fontlasth{
+	width: 300px;
+	height: 40px;
+
+	text-align: center;
+	padding-top: 40px;
+}
+.fontlasth a{
+	font-size: 26px;
+	font-family: 'Mitr', sans-serif;
+	text-decoration: none;
+	color:#fff;
+	
+}
+.fontlasth a:hover{
+	color: #313131;
+
+}
+.fontlast{
+	width: 140px;
+	height: 230px;
+	
+	margin-left: 90px;
+	
+	
+}
+.fontlast a{
+	font-size: 16px;
+	font-family: 'Mitr', sans-serif;
+	text-decoration: none;
+	color:#fff;
+
+}
+.fontlast a:hover{
+	color: #313131;
+}
+
+.imagesfont a:hover{
+	color: #313131;
+}
+.imagesfont{
+	width: 200px;
+	height: 20px;
+	color: #fff;
+	
+
+}
+.imagesfacebook:hover{
+	color: #313131;
+}
+.imagesfacebook{
+	font-size: 22px;
+	margin-left: 10px;
+	color: #fff;
+}
+.imagesfont a{
+	font-size: 16px;
+	text-decoration:none;
+	font-family: 'Mitr', sans-serif;
+	color: #fff;
+	margin-left: 20px;
+
+}
+.imagesfont1 a:hover{
+	color: #313131;
+}
+.imagesfont1{
+	width: 200px;
+	height: 20px;
+	margin-top: 10px;
+	color: #fff;
+	
+
+}
+.imagesinstagram:hover{
+	color: #313131;
+}
+.imagesinstagram{
+	font-size: 22px;
+	margin-left: 10px;
+}
+.imagesfont1 a{
+	font-size: 16px;
+	text-decoration:none;
+	font-family: 'Mitr', sans-serif;
+	color: #fff;
+	margin-left: 20px;
+}
+.imagesfont2 a:hover{
+	color: #313131;
+}
+.imagesfont2{
+	width: 200px;
+	height: 20px;
+	margin-top: 10px;
+	color: #fff;
+}
+.imagesyoutube:hover{
+	color: #313131;
+}
+.imagesyoutube{
+	font-size: 22px;
+	margin-left: 10px;
+}
+.imagesfont2 a{
+	font-size: 16px;
+	text-decoration:none;
+	font-family: 'Mitr', sans-serif;
+	color: #fff;
+	margin-left: 10px;
+}
+
+.imagesfont4 a:hover{
+	color: #313131;
+}
+.imagesfont4{
+	width: 200px;
+	height: 20px;
+	margin-top: 10px;
+	color: #fff;
+}
+.imagestwitter:hover{
+	color: #313131;
+}
+.imagestwitter{
+	font-size: 22px;
+	margin-left: 10px;
+	color: #fff;
+}
+.imagesfont4 a{
+	font-size: 16px;
+	text-decoration:none;
+	font-family: 'Mitr', sans-serif;
+	color: #fff;
+	margin-left: 20px;
+}
+.boxcat{
+	width: 650px;
+	height: 40px;
+
+	margin-left: 224px;
+	position: absolute;
+	margin-top: 310px;
+}
+.copyright{
+	width: 25px;
+
+	margin-top: 7px;
+	margin-left: 10px;
+	text-align: center;
+	float: left;
+}
+.copyright i{
+
+ 	font-size: 20px;
+ 	color: #fff;
+}
+.cat{
+	width: 600px;
+	height: 25px;
+	margin-top: 10px;
+	float: left;
+}
+.cat a{
+	font-size: 16px;
+ 	text-decoration:none;
+	font-family: 'Mitr', sans-serif;
+	color: #fff;
+}
+
+.boxlogo2{
+	width: 120px;
+	height: 50px;
+	margin-left: 940px;
+	position: absolute;
+	margin-top: 290px;
+	text-align: center;
+	
+
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+}
+
